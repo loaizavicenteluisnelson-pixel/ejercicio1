@@ -1,0 +1,70 @@
+header{
+    background: linear-gradient(
+        to right,
+        yellow,
+        red
+    );
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    color: blue;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+li{
+    padding: 15PX;
+    padding-left: 15PX;
+}
+
+ul li:hover{
+    color: red;
+    cursor: pointer;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background: linear-gradient(
+        to right,
+        blue,
+        red
+    );
+}
+.imagenfondo{
+    background-image: url("pizza.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.fondo{
+    background: rgb(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 25px;
+    width: 60%;
+}
+h2{
+    color: beige;
+}
+.boton{
+    background-color: red;
+    color: orange;
+    padding: 20px 90px;
+    border-radius: 30px;
+    font-size: large;
+}
+.boton:hover{
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
